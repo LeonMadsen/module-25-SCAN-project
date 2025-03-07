@@ -44,9 +44,6 @@ export const Homepage: React.FC = () => {
                     <img src={heroImg} alt='изображение' />
                 </div>
 
-                <div className={error ? styles.error__wrapper_active : styles.error__wrapper}>
-                    <p>Для продолжения необходимо авторизоваться</p>
-                </div>
             </section>
 
             <section className={styles.carousel__section}>
